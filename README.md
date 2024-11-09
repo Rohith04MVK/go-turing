@@ -28,6 +28,7 @@ To run the Turing Machine, use the following command:
 ./turing-machine -i <instructions.json> -t <tape> [options]
 ```
 
+
 ### Command Line Options
 
 - `-b`: Begin state (default: `q0`)
@@ -40,8 +41,19 @@ To run the Turing Machine, use the following command:
 
 ### Example
 
+Hello World
 ```sh
 ./turing-machine -i ./instructions/hello_world.json -t " " -r -s 0.3
+```
+
+Multiplication
+```sh
+./turing-machine -i ./instructions/multiplication.json -t "00 000" -r -s 0.3 # does 2*3 aka 000000
+```
+
+Binary Incrementer
+```sh
+./turing-machine -i ./instructions/binary_inc.json -t "110" -r -s 0.3 # 110 --> 111
 ```
 
 ## Instructions Format
