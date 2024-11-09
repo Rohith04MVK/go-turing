@@ -15,8 +15,8 @@
 To install the `go-turing` project, clone the repository and build the project using Go:
 
 ```sh
-git clone https://github.com/Rohith04MVK/turing-machine.git
-cd turing-machine
+git clone https://github.com/Rohith04MVK/go-turing.git
+cd go-turing
 go build -o turing-machine
 ```
 
